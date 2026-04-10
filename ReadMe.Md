@@ -92,5 +92,5 @@ This project helped practice:
 ## Author
 
 **Fahad Khan**
-Frontend Developer | MERN Stack Learner 
+Full-Stack Developer | MERN Engineer
 
