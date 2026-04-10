@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dog Profile</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.11.0/axios.js" integrity="sha512-InpoLQlvYoYXBmGVDzYGzD8FVvF+VO34Jt5dtS5eG71ZvoZHbIWGN5Q2xpimOlw5GHDGUcrh4LBNpZssV2XPQg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+
+<body>
+    <div id="card">
+        <div id="photo" style="background-image: url(assets/Starr\ Montauns.jpeg);"></div>
+        <h2 id="name">dog name</h2>
+        <ul id="list">
+            <li>
+                <p class="head">Breed:</p>
+                <p class="low" id="breed">...</p>
+            </li>
+            <li>
+                <p class="head">Bred for:</p>
+                <p class="low" id="bredfor">....</p>
+            </li>
+            <li>
+                <p class="head">Life-span:</p>
+                <p class="low" id="lifespan">....</p>
+            </li>
+            <li>
+                <p class="head">Tamperament:</p>
+                <p class="low" id="tamperament">....</p>
+            </li>
+            <li>
+                <p class="head">Height</p>
+                <p class="low" id="height">....</p>
+            </li>
+            <li>
+                <p class="head">Weight</p>
+                <p class="low" id="weight">....</p>
+            </li>
+        </ul>
+        <button id="btn">Get Random Dog</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

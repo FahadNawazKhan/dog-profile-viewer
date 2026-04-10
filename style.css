@@ -1,0 +1,110 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: rgb(42, 42, 42);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+
+#card {
+    width: 350px;
+    height: 600px;
+    border-radius: 20px;
+    background-color: rgb(83, 83, 84);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    box-shadow: 0 0 100px 0px rgb(184, 108, 255, 0.3);
+
+}
+
+#photo {
+    width: 95%;
+    height: 140px;
+    margin-top: 11px;
+    border-radius: 10px;
+    background-size: cover;
+    box-shadow: 0 0 5px 1px rgb(62, 62, 62, 10);
+
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 15px;
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+}
+
+
+ul {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+li {
+    margin: 7px;
+    gap: 10px;
+    margin-inline: 0px;
+    list-style: none;
+    background-color: rgb(128, 128, 128);
+    display: flex;
+    padding: 17px;
+    border-radius: 7px;
+    padding-inline: 10px;
+    padding-block: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 0 0 5px 1px rgb(62, 62, 62, 10);
+    overflow: hidden;
+    height: 23px;
+    align-items: center;
+}
+
+.head {
+    font-weight: bold;
+    font-size: 16px;
+    color: #282828;
+}
+
+.low {
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+    white-space: nowrap;
+    /* text stays in one line */
+    overflow: hidden;
+    /* extra text hidden */
+    text-overflow: ellipsis;
+    /* adds ... */
+}
+
+li p {
+    margin-top: 3px;
+}
+
+button {
+    width: 90%;
+    padding: 10px;
+    border-radius: 7px;
+    border: none;
+    margin-top: 6px;
+    color: rgb(213, 173, 250);
+    background-color: rgb(106, 49, 160);
+    font-size: 20px;
+    text-align: center;
+    transition: 0.3s;
+    box-shadow: 0 0 5px 1px rgb(184, 108, 255);
+
+}
+
+button:hover {
+    background-color: rgb(126, 76, 173);
+    transform: scale(1.03);
+}
